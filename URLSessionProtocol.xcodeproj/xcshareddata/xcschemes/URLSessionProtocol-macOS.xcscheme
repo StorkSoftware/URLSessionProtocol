@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "53837056201324B9001AA44D"
-               BuildableName = "URLSessionProtocol_macOS.framework"
+               BuildableName = "URLSessionProtocol.framework"
                BlueprintName = "URLSessionProtocol-macOS"
                ReferencedContainer = "container:URLSessionProtocol.xcodeproj">
             </BuildableReference>
@@ -44,7 +44,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53837056201324B9001AA44D"
-            BuildableName = "URLSessionProtocol_macOS.framework"
+            BuildableName = "URLSessionProtocol.framework"
             BlueprintName = "URLSessionProtocol-macOS"
             ReferencedContainer = "container:URLSessionProtocol.xcodeproj">
          </BuildableReference>
@@ -67,7 +67,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53837056201324B9001AA44D"
-            BuildableName = "URLSessionProtocol_macOS.framework"
+            BuildableName = "URLSessionProtocol.framework"
             BlueprintName = "URLSessionProtocol-macOS"
             ReferencedContainer = "container:URLSessionProtocol.xcodeproj">
          </BuildableReference>
@@ -85,7 +85,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "53837056201324B9001AA44D"
-            BuildableName = "URLSessionProtocol_macOS.framework"
+            BuildableName = "URLSessionProtocol.framework"
             BlueprintName = "URLSessionProtocol-macOS"
             ReferencedContainer = "container:URLSessionProtocol.xcodeproj">
          </BuildableReference>
