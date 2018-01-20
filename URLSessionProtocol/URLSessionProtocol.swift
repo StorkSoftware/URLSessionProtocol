@@ -1,11 +1,11 @@
 import Foundation
 
-protocol URLSessionProtocol {
+public protocol URLSessionProtocol {
 
     func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol
 }
 
-protocol URLSessionDataTaskProtocol {
+public protocol URLSessionDataTaskProtocol {
 
     func resume()
     func cancel()
@@ -13,19 +13,19 @@ protocol URLSessionDataTaskProtocol {
 
 extension URLSession: URLSessionProtocol {
 
-    func dataTask(with url: URL) -> URLSessionDataTaskProtocol {
+    public func dataTask(with url: URL) -> URLSessionDataTaskProtocol {
         return ((dataTask(with: url) as URLSessionDataTask) as URLSessionDataTaskProtocol)
     }
 
-    func dataTask(with url: URL, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol {
+    public func dataTask(with url: URL, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol {
         return ((dataTask(with: url, completionHandler: completionHandler) as URLSessionDataTask) as URLSessionDataTaskProtocol)
     }
 
-    func dataTask(with request: URLRequest) -> URLSessionDataTaskProtocol {
+    public func dataTask(with request: URLRequest) -> URLSessionDataTaskProtocol {
         return ((dataTask(with: request) as URLSessionDataTask) as URLSessionDataTaskProtocol)
     }
 
-    func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol {
+    public func dataTask(with request: URLRequest, completionHandler: @escaping (Data?, URLResponse?, Error?) -> Void) -> URLSessionDataTaskProtocol {
         return ((dataTask(with: request, completionHandler: completionHandler) as URLSessionDataTask) as URLSessionDataTaskProtocol)
     }
 }
