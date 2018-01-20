@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		53837060201324B9001AA44D /* URLSessionProtocol_macOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53837057201324B9001AA44D /* URLSessionProtocol_macOS.framework */; };
-		53837065201324B9001AA44D /* URLSessionProtocol_macOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53837064201324B9001AA44D /* URLSessionProtocol_macOSTests.swift */; };
-		53837067201324BA001AA44D /* URLSessionProtocol_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 53837059201324B9001AA44D /* URLSessionProtocol_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5383706E201325E7001AA44D /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */; };
+		5383706F201325E7001AA44D /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */; };
+		5383707020132646001AA44D /* URLSessionProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBD1200A7A7F00B1A153 /* URLSessionProtocolTests.swift */; };
 		5386CBCD200A7A7F00B1A153 /* URLSessionProtocol_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5386CBC3200A7A7F00B1A153 /* URLSessionProtocol_iOS.framework */; };
 		5386CBD2200A7A7F00B1A153 /* URLSessionProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBD1200A7A7F00B1A153 /* URLSessionProtocolTests.swift */; };
 		5386CBD4200A7A7F00B1A153 /* URLSessionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5386CBC6200A7A7F00B1A153 /* URLSessionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -37,14 +38,10 @@
 
 /* Begin PBXFileReference section */
 		53837057201324B9001AA44D /* URLSessionProtocol_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLSessionProtocol_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		53837059201324B9001AA44D /* URLSessionProtocol_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionProtocol_macOS.h; sourceTree = "<group>"; };
 		5383705A201324B9001AA44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5383705F201324B9001AA44D /* URLSessionProtocol-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSessionProtocol-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		53837064201324B9001AA44D /* URLSessionProtocol_macOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol_macOSTests.swift; sourceTree = "<group>"; };
-		53837066201324BA001AA44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5386CBC3200A7A7F00B1A153 /* URLSessionProtocol_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLSessionProtocol_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5386CBC6200A7A7F00B1A153 /* URLSessionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionProtocol.h; sourceTree = "<group>"; };
-		5386CBC7200A7A7F00B1A153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5386CBCC200A7A7F00B1A153 /* URLSessionProtocolTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSessionProtocolTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5386CBD1200A7A7F00B1A153 /* URLSessionProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocolTests.swift; sourceTree = "<group>"; };
 		5386CBD3200A7A7F00B1A153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -87,31 +84,11 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		53837058201324B9001AA44D /* URLSessionProtocol-macOS */ = {
-			isa = PBXGroup;
-			children = (
-				53837059201324B9001AA44D /* URLSessionProtocol_macOS.h */,
-				5383705A201324B9001AA44D /* Info.plist */,
-			);
-			path = "URLSessionProtocol-macOS";
-			sourceTree = "<group>";
-		};
-		53837063201324B9001AA44D /* URLSessionProtocol-macOSTests */ = {
-			isa = PBXGroup;
-			children = (
-				53837064201324B9001AA44D /* URLSessionProtocol_macOSTests.swift */,
-				53837066201324BA001AA44D /* Info.plist */,
-			);
-			path = "URLSessionProtocol-macOSTests";
-			sourceTree = "<group>";
-		};
 		5386CBB9200A7A7F00B1A153 = {
 			isa = PBXGroup;
 			children = (
 				5386CBC5200A7A7F00B1A153 /* URLSessionProtocol */,
 				5386CBD0200A7A7F00B1A153 /* URLSessionProtocolTests */,
-				53837058201324B9001AA44D /* URLSessionProtocol-macOS */,
-				53837063201324B9001AA44D /* URLSessionProtocol-macOSTests */,
 				5386CBC4200A7A7F00B1A153 /* Products */,
 				5386CBE0200A7C9B00B1A153 /* Frameworks */,
 			);
@@ -132,7 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				5386CBC6200A7A7F00B1A153 /* URLSessionProtocol.h */,
-				5386CBC7200A7A7F00B1A153 /* Info.plist */,
+				5383705A201324B9001AA44D /* Info.plist */,
 				5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */,
 			);
 			path = URLSessionProtocol;
@@ -162,7 +139,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53837067201324BA001AA44D /* URLSessionProtocol_macOS.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5383706E201325E7001AA44D /* URLSessionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,7 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				53837065201324B9001AA44D /* URLSessionProtocol_macOSTests.swift in Sources */,
+				5383707020132646001AA44D /* URLSessionProtocolTests.swift in Sources */,
+				5383706F201325E7001AA44D /* URLSessionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +407,7 @@
 		5383706C201324BA001AA44D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -446,6 +425,7 @@
 		5383706D201324BA001AA44D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
