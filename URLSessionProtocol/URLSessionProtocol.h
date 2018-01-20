@@ -6,7 +6,8 @@
 //  Copyright © 2018 Stork Software. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+
+#import <Foundation/Foundation.h>
 
 //! Project version number for URLSessionProtocol.
 FOUNDATION_EXPORT double URLSessionProtocolVersionNumber;
