@@ -34,8 +34,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5383705E201324B9001AA44D"
-               BuildableName = "URLSessionProtocol-macOSTests.xctest"
-               BlueprintName = "URLSessionProtocol-macOSTests"
+               BuildableName = "URLSessionProtocolTests-macOS.xctest"
+               BlueprintName = "URLSessionProtocolTests-macOS"
                ReferencedContainer = "container:URLSessionProtocol.xcodeproj">
             </BuildableReference>
          </TestableReference>

@@ -10,13 +10,13 @@
 		53837060201324B9001AA44D /* URLSessionProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53837057201324B9001AA44D /* URLSessionProtocol.framework */; };
 		5383706E201325E7001AA44D /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */; };
 		5383706F201325E7001AA44D /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */; };
-		5383707020132646001AA44D /* URLSessionProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBD1200A7A7F00B1A153 /* URLSessionProtocolTests.swift */; };
-		538370B320133550001AA44D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5383709F20133550001AA44D /* Quick.framework */; };
-		538370B420133550001AA44D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538370A020133550001AA44D /* Nimble.framework */; };
-		538370BE20133550001AA44D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538370AC20133550001AA44D /* Quick.framework */; };
-		538370BF20133550001AA44D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538370AD20133550001AA44D /* Nimble.framework */; };
+		5383707020132646001AA44D /* URLSessionProtocolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBD1200A7A7F00B1A153 /* URLSessionProtocolSpec.swift */; };
+		538370C420133604001AA44D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5383709F20133550001AA44D /* Quick.framework */; };
+		538370C520133604001AA44D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538370A020133550001AA44D /* Nimble.framework */; };
+		538370C62013360B001AA44D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538370AC20133550001AA44D /* Quick.framework */; };
+		538370C72013360B001AA44D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 538370AD20133550001AA44D /* Nimble.framework */; };
 		5386CBCD200A7A7F00B1A153 /* URLSessionProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5386CBC3200A7A7F00B1A153 /* URLSessionProtocol.framework */; };
-		5386CBD2200A7A7F00B1A153 /* URLSessionProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBD1200A7A7F00B1A153 /* URLSessionProtocolTests.swift */; };
+		5386CBD2200A7A7F00B1A153 /* URLSessionProtocolSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBD1200A7A7F00B1A153 /* URLSessionProtocolSpec.swift */; };
 		5386CBD4200A7A7F00B1A153 /* URLSessionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 5386CBC6200A7A7F00B1A153 /* URLSessionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5386CBDE200A7B1800B1A153 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */; };
 		5386CBDF200A7B1800B1A153 /* URLSessionProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */; };
@@ -43,7 +43,7 @@
 /* Begin PBXFileReference section */
 		53837057201324B9001AA44D /* URLSessionProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLSessionProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5383705A201324B9001AA44D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5383705F201324B9001AA44D /* URLSessionProtocol-macOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSessionProtocol-macOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5383705F201324B9001AA44D /* URLSessionProtocolTests-macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSessionProtocolTests-macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5383709F20133550001AA44D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
 		538370A020133550001AA44D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Nimble.framework; sourceTree = "<group>"; };
 		538370AC20133550001AA44D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quick.framework; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		5386CBC3200A7A7F00B1A153 /* URLSessionProtocol.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = URLSessionProtocol.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5386CBC6200A7A7F00B1A153 /* URLSessionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = URLSessionProtocol.h; sourceTree = "<group>"; };
 		5386CBCC200A7A7F00B1A153 /* URLSessionProtocolTests-iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "URLSessionProtocolTests-iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5386CBD1200A7A7F00B1A153 /* URLSessionProtocolTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocolTests.swift; sourceTree = "<group>"; };
+		5386CBD1200A7A7F00B1A153 /* URLSessionProtocolSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocolSpec.swift; sourceTree = "<group>"; };
 		5386CBD3200A7A7F00B1A153 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5386CBDD200A7B1800B1A153 /* URLSessionProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLSessionProtocol.swift; sourceTree = "<group>"; };
 		5386CBE1200A7C9B00B1A153 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -70,6 +70,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				53837060201324B9001AA44D /* URLSessionProtocol.framework in Frameworks */,
+				538370C62013360B001AA44D /* Quick.framework in Frameworks */,
+				538370C72013360B001AA44D /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -77,11 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				538370B420133550001AA44D /* Nimble.framework in Frameworks */,
-				538370B320133550001AA44D /* Quick.framework in Frameworks */,
-				538370BF20133550001AA44D /* Nimble.framework in Frameworks */,
 				5386CBE2200A7C9B00B1A153 /* Foundation.framework in Frameworks */,
-				538370BE20133550001AA44D /* Quick.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -90,6 +88,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5386CBCD200A7A7F00B1A153 /* URLSessionProtocol.framework in Frameworks */,
+				538370C420133604001AA44D /* Quick.framework in Frameworks */,
+				538370C520133604001AA44D /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,7 +132,7 @@
 				5386CBC3200A7A7F00B1A153 /* URLSessionProtocol.framework */,
 				5386CBCC200A7A7F00B1A153 /* URLSessionProtocolTests-iOS.xctest */,
 				53837057201324B9001AA44D /* URLSessionProtocol.framework */,
-				5383705F201324B9001AA44D /* URLSessionProtocol-macOSTests.xctest */,
+				5383705F201324B9001AA44D /* URLSessionProtocolTests-macOS.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 		5386CBD0200A7A7F00B1A153 /* URLSessionProtocolTests */ = {
 			isa = PBXGroup;
 			children = (
-				5386CBD1200A7A7F00B1A153 /* URLSessionProtocolTests.swift */,
+				5386CBD1200A7A7F00B1A153 /* URLSessionProtocolSpec.swift */,
 				5386CBD3200A7A7F00B1A153 /* Info.plist */,
 			);
 			path = URLSessionProtocolTests;
@@ -205,22 +205,23 @@
 			productReference = 53837057201324B9001AA44D /* URLSessionProtocol.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5383705E201324B9001AA44D /* URLSessionProtocol-macOSTests */ = {
+		5383705E201324B9001AA44D /* URLSessionProtocolTests-macOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5383706B201324BA001AA44D /* Build configuration list for PBXNativeTarget "URLSessionProtocol-macOSTests" */;
+			buildConfigurationList = 5383706B201324BA001AA44D /* Build configuration list for PBXNativeTarget "URLSessionProtocolTests-macOS" */;
 			buildPhases = (
 				5383705B201324B9001AA44D /* Sources */,
 				5383705C201324B9001AA44D /* Frameworks */,
 				5383705D201324B9001AA44D /* Resources */,
+				538370C920133675001AA44D /* Run Carthage */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 				53837062201324B9001AA44D /* PBXTargetDependency */,
 			);
-			name = "URLSessionProtocol-macOSTests";
+			name = "URLSessionProtocolTests-macOS";
 			productName = "URLSessionProtocol-macOSTests";
-			productReference = 5383705F201324B9001AA44D /* URLSessionProtocol-macOSTests.xctest */;
+			productReference = 5383705F201324B9001AA44D /* URLSessionProtocolTests-macOS.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		5386CBC2200A7A7F00B1A153 /* URLSessionProtocol-iOS */ = {
@@ -248,6 +249,7 @@
 				5386CBC8200A7A7F00B1A153 /* Sources */,
 				5386CBC9200A7A7F00B1A153 /* Frameworks */,
 				5386CBCA200A7A7F00B1A153 /* Resources */,
+				538370C820133634001AA44D /* Run Carthage */,
 			);
 			buildRules = (
 			);
@@ -303,7 +305,7 @@
 				5386CBC2200A7A7F00B1A153 /* URLSessionProtocol-iOS */,
 				5386CBCB200A7A7F00B1A153 /* URLSessionProtocolTests-iOS */,
 				53837056201324B9001AA44D /* URLSessionProtocol-macOS */,
-				5383705E201324B9001AA44D /* URLSessionProtocol-macOSTests */,
+				5383705E201324B9001AA44D /* URLSessionProtocolTests-macOS */,
 			);
 		};
 /* End PBXProject section */
@@ -339,6 +341,41 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		538370C820133634001AA44D /* Run Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+			);
+			name = "Run Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+		538370C920133675001AA44D /* Run Carthage */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/Mac/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/Mac/Nimble.framework",
+			);
+			name = "Run Carthage";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		53837052201324B9001AA44D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -352,7 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5383707020132646001AA44D /* URLSessionProtocolTests.swift in Sources */,
+				5383707020132646001AA44D /* URLSessionProtocolSpec.swift in Sources */,
 				5383706F201325E7001AA44D /* URLSessionProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -370,7 +407,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5386CBDF200A7B1800B1A153 /* URLSessionProtocol.swift in Sources */,
-				5386CBD2200A7A7F00B1A153 /* URLSessionProtocolTests.swift in Sources */,
+				5386CBD2200A7A7F00B1A153 /* URLSessionProtocolSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +438,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = URLSessionProtocol/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -425,6 +466,10 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = URLSessionProtocol/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
@@ -446,10 +491,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 355U245N96;
-				INFOPLIST_FILE = "URLSessionProtocol-macOSTests/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = URLSessionProtocolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "software.stork.URLSessionProtocol-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = software.stork.URLSessionProtocolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
@@ -464,10 +513,14 @@
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = 355U245N96;
-				INFOPLIST_FILE = "URLSessionProtocol-macOSTests/Info.plist";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/Mac",
+				);
+				INFOPLIST_FILE = URLSessionProtocolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				PRODUCT_BUNDLE_IDENTIFIER = "software.stork.URLSessionProtocol-macOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = software.stork.URLSessionProtocolTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
 				SWIFT_VERSION = 4.0;
@@ -658,6 +711,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 355U245N96;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = URLSessionProtocolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = software.stork.URLSessionProtocolTests;
@@ -673,6 +730,10 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 355U245N96;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = URLSessionProtocolTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = software.stork.URLSessionProtocolTests;
@@ -694,7 +755,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5383706B201324BA001AA44D /* Build configuration list for PBXNativeTarget "URLSessionProtocol-macOSTests" */ = {
+		5383706B201324BA001AA44D /* Build configuration list for PBXNativeTarget "URLSessionProtocolTests-macOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5383706C201324BA001AA44D /* Debug */,
